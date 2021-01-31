@@ -1,0 +1,192 @@
+/********************* General Settings **************************/
+html, body {
+    margin: 0;
+    height: 100%;
+    padding:0;
+}
+
+body {
+  font-family: 'Bungee', cursive;
+  background-color: #d59bf6;
+}
+
+h2 {
+  padding-top: 10%;
+  font-size: 60px;
+}
+
+p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+}
+
+
+
+.glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 30px #8ef6e4, 0 0 40px #edb1f1;
+  }
+  to {
+    text-shadow: 0 0 40px #d59bf6, 0 0 50px #ff4da6;
+  }
+}
+
+/********************* Navbar **************************/
+
+nav {
+  background-color: #9896f1;
+}
+
+.nav-item {
+  padding: 0 15px 0 15px;
+}
+
+.nav-item:hover {
+  text-shadow: 2px 2px #8ef6e4, -2px -2px #ff1616;
+}
+
+.img_logo {
+  width: 50px;
+}
+
+.img_logo:hover {
+  text-shadow: 2px 2px #8ef6e4, -2px -2px #ff1616;
+}
+
+/********************* Home Section **************************/
+
+.top-container {
+  text-align: center;
+}
+
+#home {
+  min-height:100%;
+  width:100%;
+  background-image: url("../images/background.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 15%;
+  font-size: 65px;
+  letter-spacing: 3px;
+}
+
+.top-container p {
+  margin-top: 15px;
+  letter-spacing: 4px;
+}
+
+/********************* About Section **************************/
+
+#about h2 {
+  text-align: center;
+  text-shadow: 2px 2px #8ef6e4, -2px -2px #ff1616;
+  color: #7843e6;
+  margin: 0;
+}
+
+.about-web {
+  margin-top: 6%
+}
+
+.about-name {
+  color: #8ef6e4;
+  margin: 30px auto 40px auto;
+}
+
+.about-desc {
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 22px;
+}
+
+.about-desc a {
+  text-decoration: none;
+}
+
+.about-quote {
+  margin: 20px auto 60px auto;
+  font-size: 20px;
+}
+
+.screen-img {
+  width: 18rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.about-game {
+  margin-top: 10%;
+}
+
+.controller-img {
+  width: 18rem;
+  float: right;
+  margin-left: 30px;
+}
+
+/********************* Footer Section **************************/
+
+
+.last-elem {
+  padding-bottom: 100px;
+}
+
+#contact {
+  background-image: url("../images/background.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.btn {
+  color: #8ef6e4;
+  margin: 50px auto 10px auto;
+  background-color: #9896f1;
+  border-radius: 100px;
+  text-align: center;
+  border: 0;
+  padding: 25px 50px 25px 50px;
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #9896f1;
+  padding-top: 25px;
+}
+
+.footer-text{
+  margin: 50px auto 50px auto;
+}
+
+.footer-desc {
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.footer-link {
+  margin: 0 20px;
+  width: 5%;
+}
+
+.footer-pic {
+  width: 32px;
+}
+
+.footer-info {
+  font-size: 20px;
+  padding: 20px 0 20px 0;
+}

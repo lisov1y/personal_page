@@ -95,10 +95,11 @@ h1 {
   text-shadow: 2px 2px #8ef6e4, -2px -2px #ff1616;
   color: #7843e6;
   margin: 0;
+  padding: 10%;
 }
 
 .about-web {
-  margin-top: 6%
+  margin: 2% 15% 0 15%;
 }
 
 .about-name {
@@ -128,7 +129,7 @@ h1 {
 }
 
 .about-game {
-  margin-top: 10%;
+  margin: 10% 15% 0 15%;
 }
 
 .controller-img {
@@ -150,6 +151,11 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+}
+
+.cme {
+  color: #8ef6e4;
+  margin: 30px auto 40px auto;
 }
 
 .btn {
@@ -189,4 +195,49 @@ h1 {
 .footer-info {
   font-size: 20px;
   padding: 20px 0 20px 0;
+}
+
+@media (max-width: 528px) {
+
+
+  #about {
+    margin: auto;
+
+  }
+
+  #about h2{
+    font-size: 2rem;
+  }
+
+  .about-web {
+    margin-top: 6%
+  }
+
+  .about-name {
+    color: #8ef6e4;
+    font-size: 1rem;
+  }
+
+  .about-desc {
+    line-height: 1.5em;
+    font-size: 1rem;
+  }
+
+  .about-quote {
+    margin: 15px auto 40px auto;
+    font-size: 0.9rem;
+  }
+
+  .screen-img {
+    width: 10rem;
+  }
+
+  .about-game {
+    margin-top: 10%;
+  }
+
+  .controller-img {
+    width: 10rem;
+  }
+
 }

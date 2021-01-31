@@ -95,22 +95,28 @@ h1 {
   text-shadow: 2px 2px #8ef6e4, -2px -2px #ff1616;
   color: #7843e6;
   margin: 0;
-  padding: 10%;
+  padding-top: 5%;
 }
 
-.about-web {
-  margin: 2% 15% 0 15%;
+.about-box {
+  padding: 5% 12%;
+}
+
+.about-img {
+  width: 18rem;
 }
 
 .about-name {
+  text-align: left;
   color: #8ef6e4;
   margin: 30px auto 40px auto;
+  font-size: 30px;
 }
 
 .about-desc {
   text-align: left;
   line-height: 1.5em;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .about-desc a {
@@ -119,23 +125,12 @@ h1 {
 
 .about-quote {
   margin: 20px auto 60px auto;
-  font-size: 20px;
-}
-
-.screen-img {
-  width: 18rem;
-  float: left;
-  margin-right: 30px;
+  text-align: left;
+  font-size: 24px;
 }
 
 .about-game {
   margin: 10% 15% 0 15%;
-}
-
-.controller-img {
-  width: 18rem;
-  float: right;
-  margin-left: 30px;
 }
 
 /********************* Footer Section **************************/
@@ -197,6 +192,7 @@ h1 {
   padding: 20px 0 20px 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: 528px) {
    h1 {
     padding-top: 30%;
@@ -239,6 +235,11 @@ h1 {
 
   .controller-img {
     width: 10rem;
+=======
+@media (max-width: 600px) {
+  .about-img{
+    width: 14rem;
+>>>>>>> 97cbdea (Fix about section for all screen sizes)
   }
 
 }

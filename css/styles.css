@@ -55,11 +55,9 @@ nav {
 }
 
 .img_logo {
-  width: 50px;
-}
+  width: 4.5rem;
+  padding-left: 20px;
 
-.img_logo:hover {
-  text-shadow: 2px 2px #8ef6e4, -2px -2px #ff1616;
 }
 
 /********************* Home Section **************************/
@@ -99,7 +97,7 @@ h1 {
 }
 
 .about-box {
-  padding: 5% 12%;
+  padding: 2% 12%;
 }
 
 .about-img {
@@ -135,11 +133,6 @@ h1 {
 
 /********************* Footer Section **************************/
 
-
-.last-elem {
-  padding-bottom: 100px;
-}
-
 #contact {
   background-image: url("../images/background.png");
   background-position: center top;
@@ -164,7 +157,7 @@ h1 {
   margin-bottom: 50px;
 }
 
-.bottom-container {
+.bottom-box {
   background-color: #9896f1;
   padding-top: 25px;
 }
@@ -192,54 +185,17 @@ h1 {
   padding: 20px 0 20px 0;
 }
 
-<<<<<<< HEAD
-@media (max-width: 528px) {
-   h1 {
-    padding-top: 30%;
-  }
-
-  #about {
-    margin: auto;
-  }
-
-  #about h2{
-    font-size: 2rem;
-  }
-
-  .about-web {
-    margin-top: 6%
-  }
-
-  .about-name {
-    color: #8ef6e4;
-    font-size: 1rem;
-  }
-
-  .about-desc {
-    line-height: 1.5em;
-    font-size: 1rem;
-  }
-
-  .about-quote {
-    margin: 15px auto 40px auto;
-    font-size: 0.9rem;
-  }
-
-  .screen-img {
-    width: 10rem;
-  }
-
-  .about-game {
-    margin-top: 10%;
-  }
-
-  .controller-img {
-    width: 10rem;
-=======
 @media (max-width: 600px) {
   .about-img{
     width: 14rem;
->>>>>>> 97cbdea (Fix about section for all screen sizes)
+  }
+
+  #home {
+    padding-top: 65px;
+  }
+
+  #contact {
+    padding-top: 40px;
   }
 
 }

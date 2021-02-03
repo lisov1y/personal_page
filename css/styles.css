@@ -60,6 +60,14 @@ nav {
 
 }
 
+.section-header {
+  text-align: center;
+  text-shadow: 2px 2px #8ef6e4, -2px -2px #ff1616;
+  color: #7843e6;
+  margin: 0;
+  padding-top: 5%;
+}
+
 /********************* Home Section **************************/
 
 .top-container {
@@ -87,14 +95,6 @@ h1 {
 }
 
 /********************* About Section **************************/
-
-#about h2 {
-  text-align: center;
-  text-shadow: 2px 2px #8ef6e4, -2px -2px #ff1616;
-  color: #7843e6;
-  margin: 0;
-  padding-top: 5%;
-}
 
 .about-box {
   padding: 2% 12%;
@@ -129,6 +129,33 @@ h1 {
 
 .about-game {
   margin: 10% 15% 0 15%;
+}
+
+/********************* Skills Section **************************/
+
+.skillbox {
+  width: 25%;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.skillbox {
+  margin: 10% 5%;
+}
+
+.skill-line {
+  margin-top: 20px;
+}
+
+.skill-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.skill-score {
+  float: right;
 }
 
 /********************* Footer Section **************************/
@@ -190,7 +217,12 @@ h1 {
     width: 14rem;
   }
 
-  #home, #about {
+  .skillbox {
+    width: auto;
+    margin: 0 auto 10%;
+  }
+
+  #home, #about, #skills {
     padding-top: 65px;
   }
 
